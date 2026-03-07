@@ -1,0 +1,7 @@
+name = "vibrant-counselor-api"
+main = "worker/index.ts"
+compatibility_date = "2024-03-01"
+
+[vars]
+# DO NOT include secrets here. Use `wrangler secret put` or Cloudflare Dashboard.
+# RAZORPAY_KEY_ID = "rzp_live_..."
